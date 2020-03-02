@@ -9,7 +9,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author Ivan
+ * @author Ivan Avramenko
+ * @version 1.00
+ * 
+ * Codigo Main se ha movido a la clase extraer. 
+ * Se ha creado el metodo imprimir y lo he cambiado el nombre por Imprime 
+ * Se han refactorizado las variables a y b por resultadoA y resultadoB
  */
 public class TiradaMonedas {
 
