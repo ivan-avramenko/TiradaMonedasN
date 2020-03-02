@@ -85,10 +85,17 @@ public class TiradaMonedas {
             }
         }
 
-        Imprimir(contadorCaras, contadorCruces, maximoCarasDoblesConsecutivas, maximoCrucesDoblesConsecutivas);
+        Imprime(contadorCaras, contadorCruces, maximoCarasDoblesConsecutivas, maximoCrucesDoblesConsecutivas);
     }
 
-    public static void Imprimir(int contadorCaras, int contadorCruces, int maximoCarasDoblesConsecutivas, int maximoCrucesDoblesConsecutivas) {
+    /**
+     *
+     * @param contadorCaras the value of contadorCaras
+     * @param contadorCruces the value of contadorCruces
+     * @param maximoCarasDoblesConsecutivas the value of maximoCarasDoblesConsecutivas
+     * @param maximoCrucesDoblesConsecutivas the value of maximoCrucesDoblesConsecutivas
+     */
+    public static void Imprime(int contadorCaras, int contadorCruces, int maximoCarasDoblesConsecutivas, int maximoCrucesDoblesConsecutivas) {
         System.out.println("Caras: " + contadorCaras + ", Cruces: " + contadorCruces);
         System.out.println("Maximo de caras dobles consecutivas: " + maximoCarasDoblesConsecutivas);
         System.out.println("Maximo de cruces dobles consecutivas: " + maximoCrucesDoblesConsecutivas);
